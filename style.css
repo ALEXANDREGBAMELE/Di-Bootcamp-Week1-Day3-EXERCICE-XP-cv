@@ -40,13 +40,13 @@ div{
  .Skills-body{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: 2px solid blue;
+   
    
  }
  .skill-left, .skill-right {
     text-align: left;
     text-decoration: none;
-    border: 2px solid blue;
+    
    
  }
  .body-title{

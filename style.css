@@ -4,7 +4,7 @@
 }
 
 div{
-    border: 2px solid orangered;
+    /*border: 2px solid orangered;*/
     margin: 2%;
 }
 
@@ -23,6 +23,8 @@ div{
     border: 2px solid blue;
     background-color: rgb(200, 192, 192);
     text-align: center;
+    padding: 10%;
+    /*padding-top: 16% !important;*/
    
 }
 .right-part{
@@ -34,8 +36,21 @@ div{
  .profil-photo img {
     border-radius: 50%;
  }
- .skill-body{
+ .Skills-body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     border: 2px solid blue;
+   
+ }
+ .skill-left, .skill-right {
+    text-align: left;
+    text-decoration: none;
+    border: 2px solid blue;
+   
+ }
+ .body-title{
+    border-bottom: 2px solid rgb(219, 212, 212);
+    text-align: left;
+    padding-bottom: 6px;
+    margin-bottom: 5px;
  }

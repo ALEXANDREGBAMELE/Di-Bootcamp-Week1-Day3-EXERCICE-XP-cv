@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    border: 2px solid orangered;
+    margin: 2%;
+}
+
+
+.container{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-template-rows: ;
+}
+.left-part{
+    border: 2px solid blue;
+    background-color: yellow;
+}
+ .profil-photo img {
+    border-radius: 50%;
+ }

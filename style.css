@@ -34,8 +34,14 @@ div{
     text-align: center;
    
 }
+
+.link{
+    margin-top: 5%;
+    margin-bottom: 5px;
+}
  .profil-photo img {
     border-radius: 50%;
+    margin-bottom: 10%;
  }
  .Skills-body{
     display: grid;
@@ -49,9 +55,25 @@ div{
     
    
  }
- .body-title{
+ .body-title {
     border-bottom: 2px solid rgb(219, 212, 212);
     text-align: left;
     padding-bottom: 6px;
     margin-bottom: 5px;
+ }
+ .bar{
+    padding-right: 3%;
+    margin-right: 2%;
+    border-right: 3px solid gray;
+    width: 100px;
+ }
+ .body-text{
+   
+    text-align: left;
+    padding-bottom: 6px;
+    margin-bottom: 5px;
+ }
+ footer{
+    background-color: orange;
+    height: 20px;
  }
